@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html,
+body,
+#root {
+  min-height: 100%;
+}
+
+body {
+  background:
+    radial-gradient(circle at top left, rgba(45, 212, 191, 0.12), transparent 28%),
+    #07111f;
+}
+
+.panel {
+  @apply rounded-2xl border border-white/10 bg-ink-900/80 shadow-lg shadow-black/20;
+}

@@ -1,0 +1,39 @@
+# Python
+backend/.venv/
+backend/**/__pycache__/
+backend/**/*.pyc
+backend/.pytest_cache/
+*.egg-info/
+.coverage
+htmlcov/
+
+# Node
+frontend/node_modules/
+frontend/dist/
+frontend/.vite/
+
+# Runtime data
+backend/data/uploads/*
+backend/data/frames/*
+backend/data/jobs/*
+backend/data/evidence/*
+!backend/data/uploads/.gitkeep
+!backend/data/frames/.gitkeep
+!backend/data/jobs/.gitkeep
+!backend/data/evidence/.gitkeep
+
+# Weights & Models
+*.pt
+*.pth
+*.onnx
+*.engine
+
+# Env (keep examples)
+.env
+backend/.env
+frontend/.env
+
+# OS / editor
+.DS_Store
+Thumbs.db
+*.log
